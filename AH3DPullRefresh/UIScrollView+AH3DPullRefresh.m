@@ -190,10 +190,10 @@ static CGFloat const kAHPullView_ViewHeight = 60.0;
         _originalScrollViewContentInset = [_scrollView contentInset];
         [self setBackgroundColor:[UIColor whiteColor]];
 
-        _pullingText = [NSLocalizedString(@"Continue pulling to refresh",@"") retain];
-        _releaseText = [NSLocalizedString(@"Release to refresh",@"") retain];
+        _pullingText = [NSLocalizedString(@"Pull to load more results",@"") retain];
+        _releaseText = [NSLocalizedString(@"Show more results",@"") retain];
         _loadingText = [NSLocalizedString(@"Loading...",@"") retain];
-        _loadedText = [NSLocalizedString(@"Loaded!",@"") retain];
+        _loadedText = [NSLocalizedString(@"",@"") retain];
     }
     return self;
 }
